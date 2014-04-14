@@ -6,7 +6,6 @@ This is a readme file
 ## title 1
 
 
-没有太弄明白这个原理
 
 ### title 2
 同不明白
