@@ -1,6 +1,59 @@
 #!/bin/bash
 #set -ex
-echo $$
+#echo $$
+
+y1=2000
+y2=2001
+((d=$y2-$y1))
+#if [ $d -le 10 ];then
+if [ (($y2-$y1)) -le 10 ];then
+    echo 'small'
+else
+    echo 'large diff'
+fi
+#echo "$ncfile not found at ESGF"
+
+#NF=5
+#for (( i = 0; i < $NF-3; i++ )); do
+    #dir="$dir../"
+    #echo $dir
+    ##statements
+#done
+
+#grep --color=auto 'v\d{8}' ./log.txt
+#grep --color=auto 'v[0-9]{0,9}' ./log.txt
+#grep -E --color=auto 'v20[0-9]{6}' ./log.txt
+#grep --color=auto 'v2{}' ./log.txt
+#grep --color=auto 'v[2]*' ./log.txt
+#grep 'U*' ./esmvaltool.txt
+
+#pid=$$
+#echo $pid
+#
+#echo $1
+#
+#for list in $1
+#do
+    #if [ -f $list ]
+    #then
+        #echo file: $list
+    #elif [ -d $list ]
+    #then
+        #echo dir: $list
+    #else
+        #echo "unknow $list"
+    #fi
+#done
+
+#pid=$$
+#echo pid:$pid
+
+#sleep 60s &
+#ppid=$(ps -o ppid= $(ps -f |grep 'sleep' |head -1 |cut -d" " -f3))
+#echo ppid:$ppid
+#
+#sleep 90s 
+#exit
 
 #source ~/Desktop/cmorenv.sh
 #
